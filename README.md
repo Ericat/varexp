@@ -1,7 +1,9 @@
 # Varexp
 
-This Gem will export your environment variables to CSV. It requires the 'csv' gem, which is built-in in Ruby 2.0, 
-therefore installation on a Ruby version other than 2.0 will probably fail =(
+This Gem will export your environment variables to CSV. 
+
+It requires the 'csv' gem, which is built-in in Ruby 2.0; therefore installation on a Ruby version other than 
+2.0 will probably fail.
 
 ## Installation
 
@@ -19,8 +21,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+On the command line, type varex immediately followed by the file path identifier. 
 
+For example, if pwd is 'home' and you want to save the file in the same directory as "test.csv":
+
+    $ varexp test.csv
+    
 ## Contributing
 
 1. Fork it
@@ -28,3 +34,5 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+The Gem needs support for other versions of Ruby.
