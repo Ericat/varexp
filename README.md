@@ -1,6 +1,7 @@
 # Varexp
 
-TODO: Write a gem description
+This Gem will export your environment variables to CSV. It requires the 'csv' gem, which is built-in in Ruby 2.0, 
+therefore installation on a Ruby version other than 2.0 will probably fail =(
 
 ## Installation
 
